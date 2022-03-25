@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     @IBAction func equalButton(_ sender: Any) {
         
         if validInput(){
-            let expression = NSExpression(format: workings+".00000")
+            let expression = NSExpression(format: workings)
             let result = expression.expressionValue(with: nil, context: nil) as! Double
             let resultString = formatResult(result: result)
             calculatorResults.text = resultString
@@ -132,6 +132,7 @@ class ViewController: UIViewController {
         calculatorWorking.text = workings
         resultLabel = ""
     }
+
     @IBAction func devideButton(_ sender: Any) {
         if(!resultLabel.isEmpty){
             nextMath()
@@ -192,104 +193,14 @@ class ViewController: UIViewController {
         resultLabel = ""
     }
     
-    @IBAction func zeroButton(_ sender: Any) {
+    @IBAction func numberButton(_ sender: UIButton) {
+        let temp = (sender.titleLabel?.text)
         if(!resultLabel.isEmpty){
             newMathWithNumber()
-            addToWorkings(value: "0")
+            addToWorkings(value: temp ?? "0")
         }
         else{
-            addToWorkings(value: "0")
-        }
-    }
-    
-    @IBAction func oneButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "1")
-        }
-        else{
-            addToWorkings(value: "1")
-        }
-
-    }
-    
-    @IBAction func twoButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "2")
-        }
-        else{
-            addToWorkings(value: "2")
-        }
-    }
-    
-    @IBAction func threeButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "3")
-        }
-        else{
-            addToWorkings(value: "3")
-        }
-    }
-    
-    @IBAction func fourButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "4")
-        }
-        else{
-            addToWorkings(value: "4")
-        }
-    }
-    
-    @IBAction func fiveButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "5")
-        }
-        else{
-            addToWorkings(value: "5")
-        }
-    }
-    
-    @IBAction func sixButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "6")
-        }
-        else{
-            addToWorkings(value: "6")
-        }
-    }
-    
-    @IBAction func sevenButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "7")
-        }
-        else{
-            addToWorkings(value: "7")
-        }
-    }
-    
-    @IBAction func eightButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "8")
-        }
-        else{
-            addToWorkings(value: "8")
-        }
-    }
-    
-    @IBAction func nineButton(_ sender: Any) {
-        if(!resultLabel.isEmpty){
-            newMathWithNumber()
-            addToWorkings(value: "9")
-        }
-        else{
-            addToWorkings(value: "9")
+            addToWorkings(value: temp ?? "0")
         }
     }
     
