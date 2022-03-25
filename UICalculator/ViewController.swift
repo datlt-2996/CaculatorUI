@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     @IBAction func equalButton(_ sender: Any) {
         
         if validInput(){
-            let expression = NSExpression(format: workings+"+.00000")
+            let expression = NSExpression(format: workings+".00000")
             let result = expression.expressionValue(with: nil, context: nil) as! Double
             let resultString = formatResult(result: result)
             calculatorResults.text = resultString
