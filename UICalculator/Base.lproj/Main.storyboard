@@ -36,6 +36,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="allClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gI5-RC-dY3"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -56,12 +59,15 @@
                                                         </constraints>
                                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="+/-">
+                                                        <buttonConfiguration key="configuration" style="plain" title="⌫">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
                                                         </buttonConfiguration>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jO7-0m-Eg4"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,6 +95,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="percentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kiO-Ep-cZt"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -113,6 +122,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="devideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6n2-Vy-i5d"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -146,6 +158,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="sevenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dht-yO-c12"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -170,6 +185,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="eightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="To2-RX-lKq"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -194,6 +212,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="nineButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0m-NF-mN7"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -218,6 +239,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mutilButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lov-Xx-7g6"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -247,6 +271,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="fourButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLF-af-3FE"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -271,6 +298,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="fiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T43-mE-16x"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -295,6 +325,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="sixButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05w-js-JLt"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -309,7 +342,7 @@
                                                 <rect key="frame" x="310.5" y="0.0" width="103.5" height="103.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHU-Zr-qrA" customClass="MyButton" customModule="UICalculator" customModuleProvider="target">
-                                                        <rect key="frame" x="8" y="7.5" width="87.5" height="88"/>
+                                                        <rect key="frame" x="8" y="5.5" width="87.5" height="92.5"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <state key="normal" title="Button"/>
@@ -319,14 +352,17 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LBH-it-WKM"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="height" secondItem="IlJ-1l-ID9" secondAttribute="height" multiplier="0.85" id="ZTH-iN-vaE"/>
-                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="centerY" secondItem="IlJ-1l-ID9" secondAttribute="centerY" id="f8V-NP-Toh"/>
-                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="centerX" secondItem="IlJ-1l-ID9" secondAttribute="centerX" id="qFh-iB-qal"/>
-                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="width" secondItem="IlJ-1l-ID9" secondAttribute="width" multiplier="0.85" id="wYt-En-96G"/>
+                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="centerX" secondItem="IlJ-1l-ID9" secondAttribute="centerX" id="2Ib-sd-Z7B"/>
+                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="centerY" secondItem="IlJ-1l-ID9" secondAttribute="centerY" id="Tte-cb-Tau"/>
+                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="width" secondItem="IlJ-1l-ID9" secondAttribute="width" multiplier="0.845411" id="X0B-KZ-3jc"/>
+                                                    <constraint firstItem="VHU-Zr-qrA" firstAttribute="height" secondItem="IlJ-1l-ID9" secondAttribute="height" multiplier="0.89372" id="eg8-2D-kSt"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -348,6 +384,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="oneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rI-o4-mEZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -372,6 +411,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="twoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w0U-gZ-81l"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -396,6 +438,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="threeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VID-WP-VDl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -420,6 +465,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r21-OC-zlf"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -449,6 +497,9 @@
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="zeroButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0to-qI-JhC"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -476,6 +527,9 @@
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="dotButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fgG-RG-7Ty"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -500,6 +554,9 @@
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                                 </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="equalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cW-vA-fL6"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -521,17 +578,26 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="259"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tC-r2-Pj1">
-                                        <rect key="frame" x="0.0" y="119.5" width="394" height="119.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="100"/>
+                                        <rect key="frame" x="0.0" y="167" width="394" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 + 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-NT-aBh">
+                                        <rect key="frame" x="0.0" y="60" width="394" height="72"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="60"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="VM0-NT-aBh" firstAttribute="leading" secondItem="M7Z-dD-P8K" secondAttribute="leading" id="Cwh-mx-WUm"/>
+                                    <constraint firstAttribute="trailing" secondItem="VM0-NT-aBh" secondAttribute="trailing" constant="20" symbolic="YES" id="Klw-Rc-DHG"/>
                                     <constraint firstItem="1tC-r2-Pj1" firstAttribute="leading" secondItem="M7Z-dD-P8K" secondAttribute="leading" id="PF0-dh-nsd"/>
                                     <constraint firstAttribute="trailing" secondItem="1tC-r2-Pj1" secondAttribute="trailing" constant="20" id="WdK-dq-h3Z"/>
                                     <constraint firstAttribute="bottom" secondItem="1tC-r2-Pj1" secondAttribute="bottom" constant="20" id="Z2D-lt-faL"/>
+                                    <constraint firstItem="VM0-NT-aBh" firstAttribute="top" secondItem="M7Z-dD-P8K" secondAttribute="top" constant="60" id="qXY-fW-Sn8"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -549,25 +615,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ACbutton" destination="i1q-ze-1cK" id="Gol-oX-Hdf"/>
-                        <outlet property="divButton" destination="WDd-xN-5FA" id="nRB-Bv-at9"/>
-                        <outlet property="dotButton" destination="1Ze-b4-0zJ" id="pSl-w6-NLa"/>
-                        <outlet property="eightButton" destination="zyP-u3-5Jx" id="otZ-Sc-MZ8"/>
-                        <outlet property="equalButton" destination="DEZ-bh-SbL" id="pKp-e8-o6A"/>
-                        <outlet property="fiveButton" destination="bHA-DQ-cHf" id="hOb-3z-HYd"/>
-                        <outlet property="fourButton" destination="hPB-tz-Z1d" id="MHc-TZ-Wh4"/>
-                        <outlet property="lunisolarButton" destination="onL-9E-8j6" id="cOC-Z1-YzV"/>
-                        <outlet property="multiButton" destination="K5H-gV-yAT" id="UiL-Ij-CNL"/>
-                        <outlet property="nineButton" destination="LSm-pA-6F7" id="SIQ-Fu-GTz"/>
-                        <outlet property="oneButton" destination="q54-gC-v7k" id="MgJ-cz-azy"/>
-                        <outlet property="percentButton" destination="AtX-bn-d21" id="kCq-6q-cEe"/>
-                        <outlet property="plusButton" destination="7Zs-SN-4wt" id="8Mm-OA-BAz"/>
-                        <outlet property="sevenButton" destination="qoN-Z7-2JE" id="NMI-Ne-10x"/>
-                        <outlet property="sixButton" destination="KqK-wL-fTS" id="pGC-5x-bvc"/>
-                        <outlet property="subButton" destination="VHU-Zr-qrA" id="IlF-Wg-axj"/>
-                        <outlet property="threeButton" destination="6Sa-hD-QHe" id="wp5-Qr-0fE"/>
-                        <outlet property="twoButton" destination="W3p-P9-4pp" id="uXU-3t-YnL"/>
-                        <outlet property="zeroButton" destination="DuY-zQ-xhl" id="Ak4-7w-isj"/>
+                        <outlet property="calculatorResults" destination="1tC-r2-Pj1" id="k07-n3-SNZ"/>
+                        <outlet property="calculatorWorking" destination="VM0-NT-aBh" id="dRL-pB-glA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -575,6 +624,65 @@
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="1Ze-b4-0zJ">
+            <size key="intrinsicContentSize" width="32" height="50"/>
+        </designable>
+        <designable name="6Sa-hD-QHe">
+            <size key="intrinsicContentSize" width="43.5" height="50"/>
+        </designable>
+        <designable name="7Zs-SN-4wt">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+        <designable name="AtX-bn-d21">
+            <size key="intrinsicContentSize" width="51.5" height="50"/>
+        </designable>
+        <designable name="DEZ-bh-SbL">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+        <designable name="DuY-zQ-xhl">
+            <size key="intrinsicContentSize" width="44.5" height="50"/>
+        </designable>
+        <designable name="K5H-gV-yAT">
+            <size key="intrinsicContentSize" width="40.5" height="50"/>
+        </designable>
+        <designable name="KqK-wL-fTS">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+        <designable name="LSm-pA-6F7">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+        <designable name="VHU-Zr-qrA">
+            <size key="intrinsicContentSize" width="38" height="50"/>
+        </designable>
+        <designable name="W3p-P9-4pp">
+            <size key="intrinsicContentSize" width="42.5" height="50"/>
+        </designable>
+        <designable name="WDd-xN-5FA">
+            <size key="intrinsicContentSize" width="33.5" height="50"/>
+        </designable>
+        <designable name="bHA-DQ-cHf">
+            <size key="intrinsicContentSize" width="43.5" height="50"/>
+        </designable>
+        <designable name="hPB-tz-Z1d">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+        <designable name="i1q-ze-1cK">
+            <size key="intrinsicContentSize" width="66" height="50"/>
+        </designable>
+        <designable name="onL-9E-8j6">
+            <size key="intrinsicContentSize" width="55.5" height="50"/>
+        </designable>
+        <designable name="q54-gC-v7k">
+            <size key="intrinsicContentSize" width="39" height="50"/>
+        </designable>
+        <designable name="qoN-Z7-2JE">
+            <size key="intrinsicContentSize" width="42" height="50"/>
+        </designable>
+        <designable name="zyP-u3-5Jx">
+            <size key="intrinsicContentSize" width="44" height="50"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
