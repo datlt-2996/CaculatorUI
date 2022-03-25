@@ -159,7 +159,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="sevenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dht-yO-c12"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B3b-6E-f33"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -186,7 +186,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="eightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="To2-RX-lKq"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rtW-gN-a4p"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -213,7 +213,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="nineButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0m-NF-mN7"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ckr-2L-wNN"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -272,7 +272,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="fourButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLF-af-3FE"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tS7-H8-c58"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -299,7 +299,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="fiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T43-mE-16x"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jeM-XH-zBQ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -326,7 +326,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="sixButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05w-js-JLt"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4VX-JW-c3M"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -385,7 +385,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="oneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rI-o4-mEZ"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fga-eW-dsR"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -412,7 +412,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="twoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w0U-gZ-81l"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZHb-Ay-lQk"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -439,7 +439,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="threeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VID-WP-VDl"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6H-lw-FpJ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -498,7 +498,7 @@
                                                             <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="zeroButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0to-qI-JhC"/>
+                                                            <action selector="numberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qTh-Ds-tCD"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
