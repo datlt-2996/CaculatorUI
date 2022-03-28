@@ -30,11 +30,11 @@ class ViewController: UIViewController {
         calculatorWorking.text = workings
     }
 
-    @IBAction func allClear(_ sender: Any) {
+    @IBAction func allClear(_ sender: UIButton) {
         clearAll()
     }
     
-    @IBAction func backButton(_ sender: Any) {
+    @IBAction func backButton(_ sender: UIButton) {
         if (!workings.isEmpty){
             workings.removeLast()
             calculatorWorking.text = workings
@@ -88,7 +88,7 @@ class ViewController: UIViewController {
         return true
     }
     
-    @IBAction func equalButton(_ sender: Any) {
+    @IBAction func equalButton(_ sender: UIButton) {
         
         if validInput(){
             let expression = NSExpression(format: workings)
@@ -115,7 +115,7 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func percentButton(_ sender: Any) {
+    @IBAction func percentButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             workings = workings + "*0.01"
@@ -132,7 +132,7 @@ class ViewController: UIViewController {
         calculatorWorking.text = workings
         resultLabel = ""
     }
-    @IBAction func devideButton(_ sender: Any) {
+    @IBAction func devideButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             workings = workings + ".000"
@@ -145,7 +145,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func mutilButton(_ sender: Any) {
+    @IBAction func mutilButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             addToWorkings(value: "*")
@@ -156,7 +156,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func minusButton(_ sender: Any) {
+    @IBAction func minusButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             addToWorkings(value: "-")
@@ -167,7 +167,7 @@ class ViewController: UIViewController {
 
     }
     
-    @IBAction func plusButton(_ sender: Any) {
+    @IBAction func plusButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             addToWorkings(value: "+")
@@ -178,7 +178,7 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func dotButton(_ sender: Any) {
+    @IBAction func dotButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
             addToWorkings(value: ".")
