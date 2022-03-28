@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         }
         return false
     }
+    
     func validInput() -> Bool {
         var count = 0
         var funcCharIndexes = [Int]()
@@ -93,7 +94,6 @@ class ViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "OK", style: .default))
             self.present(alert, animated: true, completion: nil)
         }
-        
     }
     
     func formatResult(result: Double) -> String{
@@ -191,6 +191,5 @@ class ViewController: UIViewController {
             addToWorkings(value: temp ?? "0")
         }
     }
-
 }
 
