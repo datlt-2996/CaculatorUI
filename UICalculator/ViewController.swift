@@ -19,12 +19,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         clearAll()
     }
+    
     func clearAll(){
         workings = ""
         calculatorWorking.text = ""
         resultLabel = ""
         calculatorResults.text = ""
     }
+    
     func addToWorkings(value: String){
         workings = workings + value
         calculatorWorking.text = workings
@@ -45,51 +47,39 @@ class ViewController: UIViewController {
         if (char == "/" || char == "*" || char == "-" || char == "+" || char == ".") {
             return true
         }
-        
         return false
     }
     func validInput() -> Bool {
-        
         var count = 0
         var funcCharIndexes = [Int]()
-        
         for char in workings {
             if specialCharacter(char: char) {
                 funcCharIndexes.append(count)
             }
             count += 1
         }
-        
         if workings.isEmpty {
             return false
         }
-        
         var previousChar: Int = -1
-        
         for index in funcCharIndexes {
             if index == 0 {
                 return false
             }
-            
             if index == workings.count - 1 {
                 return false
             }
-            
             if previousChar != -1 {
-                
                 if index - previousChar == 1 {
                     return false
                 }
             }
             previousChar = index
-            
         }
-        
         return true
     }
     
     @IBAction func equalButton(_ sender: UIButton) {
-        
         if validInput(){
             let expression = NSExpression(format: workings)
             let result = expression.expressionValue(with: nil, context: nil) as! Double
@@ -105,6 +95,7 @@ class ViewController: UIViewController {
         }
         
     }
+    
     func formatResult(result: Double) -> String{
         if(result.truncatingRemainder(dividingBy: 1) == 0){
             return String(format: "%.0f", result)
@@ -114,7 +105,6 @@ class ViewController: UIViewController {
         }
     }
     
-
     @IBAction func percentButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
@@ -127,11 +117,13 @@ class ViewController: UIViewController {
             calculatorWorking.text = fakeWorking + "%"
         }
     }
+    
     func nextMath(){
         workings = resultLabel
         calculatorWorking.text = workings
         resultLabel = ""
     }
+    
     @IBAction func devideButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
@@ -142,7 +134,6 @@ class ViewController: UIViewController {
             workings = workings + ".000"
             addToWorkings(value: "/")
         }
-
     }
     
     @IBAction func mutilButton(_ sender: UIButton) {
@@ -153,7 +144,6 @@ class ViewController: UIViewController {
         else{
             addToWorkings(value: "*")
         }
-
     }
     
     @IBAction func minusButton(_ sender: UIButton) {
@@ -164,7 +154,6 @@ class ViewController: UIViewController {
         else{
             addToWorkings(value: "-")
         }
-
     }
     
     @IBAction func plusButton(_ sender: UIButton) {
@@ -177,7 +166,6 @@ class ViewController: UIViewController {
         }
     }
     
-
     @IBAction func dotButton(_ sender: UIButton) {
         if(!resultLabel.isEmpty){
             nextMath()
@@ -186,7 +174,6 @@ class ViewController: UIViewController {
         else{
             addToWorkings(value: ".")
         }
-
     }
     
     func newMathWithNumber(){
@@ -204,6 +191,6 @@ class ViewController: UIViewController {
             addToWorkings(value: temp ?? "0")
         }
     }
-    
+
 }
 
